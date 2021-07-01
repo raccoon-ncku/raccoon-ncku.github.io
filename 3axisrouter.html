@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>NCKU RAC-Coon</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Pasted from STACKOVERFLOW-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Import element definition -->
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
+</head>
+
+<body id="page-top">
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
+    <!-- Main-->
+    <section class="page-section" id="3axisrouter">
+        <div class="container">
+            <h2 class="section-heading text-uppercase">3-axis CNC Router</h2>
+            <img class="img-fluid d-block mx-auto" src="assets/img/hardwares/router-closeup-1.jpg"
+                alt="a picture of a Multicam router" />
+            <h3>Overview</h3>
+            <p>RAC-Coon operates one 3-axis CNC routers. The machines has a 2400 x 1200mm work envelope with 300mm of
+                Z-axis clearance. They perform both 2D profiling of flat sheet stock and 3D surface machining of solid
+                materials including wood and foam.</P>
+            <h3>Access Procedure</h3>
+            <p>The 3-axis routers are operated by trained Lab Assistants on a set schedule that varies by semester.
+                Please consult the RAC-Coon website for access to the current CNC lab assitant calendar when planning
+                any
+                router work.</p>
+            <h3>File Preparation</h3>
+            <p>Our CAM software (RhinoCAM 2016) is CAM plugin for Rhino 6. For most
+                purposes all geometries should be submitted as Rhinoceros 3DM files. Please set the origin and
+                orientation of the file according to the diagram below. It is also helpful to model an outline of the
+                stock to be milled in addition to the design geometries.
+                Although the machine can move within the limits outlined above, the design of the 3D surface being
+                milled (steepness, curvature, etc.) and the limitations of the tools (limited depth of the bits,
+                potential collision with the tool holder, etc.) affect the feasability of milling. These factors impact
+                the Z-axis travel almost exclusively, and students are advised to keep their maximum material size at
+                2400 x 1200 x 10mm.</p>
+            <h3>Talk with a Coordinating Lab Assistant</h3>
+            <p>Think of the Coordinating Lab Assistant as an advisor for your CNC project. The Coordinating Lab
+                Assistants hold regular office-hours in both the Workplace RAC-Coon and the design studio to meet with
+                anyone
+                seeking to use
+                the CNC machines. To speak with the Coordinating Lab Assistant look at their office-hours posted on the
+                Scheduling LA Calendar on the RAC-Coon website; you can contact them via emailing at
+                taubmancollegerouter@
+                website to request an appointment during an available time slot. The Coordinating LA will reply to
+                confirm the appointment. If the calendar is full, you may also try stopping by the RAC-Coon during
+                scheduled office-hours.
+                Bring your file(s) to the appointment with the Coordinating Lab Assistant. They will review your
+                geometry, discuss material choices and answer any questions you may have. At the end of the appointment,
+                the Coordinating Lab Assistant will work with you to schedule a cut time with a Lab Assistant on the CNC
+                Calendar (also available on the RAC-Coon website).</p>
+            <h3>Material Preparation</h3>
+            <p>It is important that you handle all material preparation prior to you scheduled shift with a Lab
+                Assistant to limit unnecessary delays. This includes material purchase, any lamination that may be
+                required, etc. Please see the Material Selection Guidelines and Solid Block Preparation sections below
+                for further information on material preparation.
+                If you are planning on using a non-standard material please consult with the Coordinating Lab Assistants
+                or Research Associates. prior to placing your order as specialty router bits may be required. Due to the
+                nature of the machinery RAC-Coon reserves the right to refuse the use of any router bits supplied by a
+                student.</p>
+            <h3>Cut with a Lab Assistant</h3>
+            <p>Arrive to your scheduled shift with your prepared file(s) and material. Upon arrival, the Lab Assistant
+                will prepare the necessary RhinoCAM files and run your project on the router. If you have prepared your
+                Mastercam file yourself the Lab Assistant will review it before cutting to ensure that it has been set
+                up properly for the RAC-Coon machines.
+                Students are required to be present for the duration of their cut in order to make any necessary
+                decisions that could affect the finished piece and to assist the Lab Assistant when neccessary. It is
+                recommended that students pay attention to how the Lab Assistant sets up their file and runs the CNC
+                router to better understand the limitations of the process.</p>
+            <h3>Clean Up and Pay</h3>
+            <p>It is the student’s responsibility to clean up after the cut is complete. All scrap material must be
+                taken to the dumpster located outside the ___ and all debris/dust must be swept and
+                properly discarded. Additional cleaning may be necessary depending on the circumstances of the cut.</p>
+            <h3>Safety</h3>
+            <p>Please refer to the workplace safety and robot safety sections in the safety page.</p>
+
+            <h3>Pricing</h3>
+            <p>Please refer to the workplace safety and robot safety sections in the safety page.</p>
+            <table class="table-bordered">
+                <tr>
+                    <td class="table-primary">User group 人員類別</td>
+                    <td class="table-primary">Ｍachine rate 機器費率 ($NTD/Hr)</td>
+                    <td class="table-primary">Assistant rate 協助使用費率 ($NTD/Hr)</td>
+                </tr>
+                <tr>
+                    <td>RAC-Coon Staff</td>
+                    <td>800</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>NCKU / 成功大學師生</td>
+                    <td>1600</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>External / 校外人士</td>
+                    <td>2000</td>
+                    <td>250</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </section>
+    <!-- Footer-->
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
