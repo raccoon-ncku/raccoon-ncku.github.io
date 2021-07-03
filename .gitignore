@@ -103,6 +103,7 @@ Thumbs.db
 # ignore editor/IDE folders
 /.idea
 /.vscode
+/ref
 
 
 # -------------------------

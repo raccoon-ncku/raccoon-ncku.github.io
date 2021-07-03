@@ -2,23 +2,13 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
-	<title>NCKU RAC-Coon</title>
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-	<!-- Font Awesome icons (free version)-->
-	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-	<!-- Pasted from STACKOVERFLOW-->
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<!-- Google fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-		type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-	<!-- Core theme CSS (includes Bootstrap)-->
-	<link href="css/styles.css" rel="stylesheet" />
+	<div id="head-placeholder"></div>
+	<script>
+		$(function () {
+			$("#head-placeholder").load("/header.html");
+		});
+	</script>
 </head>
 
 <body id="page-top">
@@ -26,7 +16,7 @@
 	<div id="nav-placeholder"></div>
 	<script>
 		$(function () {
-			$("#nav-placeholder").load("nav.html");
+			$("#nav-placeholder").load("/nav.html");
 		});
 	</script>
 	<!--end of Navigation bar-->
@@ -171,17 +161,17 @@
 	<section class="page-section bg-light" id="portfolio">
 		<div class="container">
 			<div class="text-center">
-				<h2 class="section-heading text-uppercase">Hardwares</h2>
+				<h2 class="section-heading text-uppercase">Hardware</h2>
 				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" href="7axiskuka.html">
+						<a class="portfolio-link" href="/pages/hardware/kuka-robot-cell.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
-							<img class="img-fluid" src="assets/img/hardwares/kuka_kr300_west_thumbnail.jpg" alt="" />
+							<img class="img-fluid" src="/assets/img/hardware/kuka_kr300_west_thumbnail.jpg" alt="" />
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">7-axis Kuka Robots</div>
@@ -200,7 +190,7 @@
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
-							<img class="img-fluid" src="assets/img/hardwares/kuka_kr300_west_thumbnail.jpg" alt="" />
+							<img class="img-fluid" src="/assets/img/hardware/kuka_kr300_west_thumbnail.jpg" alt="" />
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">6-axis Hiwin Robots</div>
@@ -215,11 +205,11 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" href="3axisrouter.html">
+						<a class="portfolio-link" href="/pages/hardware/3-axis-cnc-router.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
-							<img class="img-fluid" src="assets/img/hardwares/router-closeup-1.jpg" alt="" />
+							<img class="img-fluid" src="/assets/img/hardware/router-closeup-1.jpg" alt="" />
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">3-axis CNC Router</div>
@@ -230,11 +220,11 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+						<a class="portfolio-link" data-toggle="modal" href="/pages/hardware/3d-printer.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 							</div>
-							<img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+							<img class="img-fluid" src="/assets/img/portfolio/03-thumbnail.jpg" alt="" />
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">3D printers</div>
@@ -251,18 +241,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6 my-3">
-					<a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
+					<a href="#!"><img class="img-fluid d-block mx-auto" src="/assets/img/logos/envato.jpg" alt="" /></a>
 				</div>
 				<div class="col-md-3 col-sm-6 my-3">
-					<a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg"
+					<a href="#!"><img class="img-fluid d-block mx-auto" src="/assets/img/logos/designmodo.jpg"
 							alt="" /></a>
 				</div>
 				<div class="col-md-3 col-sm-6 my-3">
-					<a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg"
+					<a href="#!"><img class="img-fluid d-block mx-auto" src="/assets/img/logos/themeforest.jpg"
 							alt="" /></a>
 				</div>
 				<div class="col-md-3 col-sm-6 my-3">
-					<a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg"
+					<a href="#!"><img class="img-fluid d-block mx-auto" src="/assets/img/logos/creative-market.jpg"
 							alt="" /></a>
 				</div>
 			</div>
@@ -316,7 +306,7 @@
 	<div id="footer-placeholder"></div>
 	<script>
 		$(function () {
-			$("#footer-placeholder").load("footer.html");
+			$("#footer-placeholder").load("/footer.html");
 		});
 	</script>
 	<!-- Portfolio Modals-->
@@ -333,7 +323,7 @@
 								<!-- Project Details Go Here-->
 								<h2 class="text-uppercase">Project Name</h2>
 								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-								<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
+								<img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/01-full.jpg" alt="" />
 								<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
 									adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
 									repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -358,7 +348,7 @@
 	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+				<div class="close-modal" data-dismiss="modal"><img src="/assets/img/close-icon.svg" alt="Close modal" />
 				</div>
 				<div class="container">
 					<div class="row justify-content-center">
@@ -392,7 +382,7 @@
 	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+				<div class="close-modal" data-dismiss="modal"><img src="/assets/img/close-icon.svg" alt="Close modal" />
 				</div>
 				<div class="container">
 					<div class="row justify-content-center">
@@ -426,7 +416,7 @@
 	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+				<div class="close-modal" data-dismiss="modal"><img src="/assets/img/close-icon.svg" alt="Close modal" />
 				</div>
 				<div class="container">
 					<div class="row justify-content-center">
