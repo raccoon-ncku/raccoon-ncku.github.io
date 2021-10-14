@@ -1,13 +1,31 @@
 {
   "language": "zh-Hant",
-  "section": {
-    "hardware": {"title":"硬體設備", "description": ""},
-    "team": "Team",
-    "projects": "Projects",
-    "contact_us":"Contact Us"
-  },
   "langPath": {
-    "nav": "",
+    "nav": "/zh-Hant",
     "md": "/zh-Hant"
+  },
+  "section": {
+    "services": {
+      "title":"服務項目",
+      "description": ""},
+    "hardware": {"title":"硬體設備", "description": ""},
+    "team": {"title":"團隊成員", "description": ""},
+    "projects": {"title":"專案作品", "description": ""},
+    "contact_us":{"title":"聯絡我們", "description": ""},
+    "use_and_learn": {"title":"使用設備", "description": ""},
+    "about": {"title":"關於", "description": ""}
+  },
+  "pages": {
+    "download": "Download",
+    "reserve": "Reserve"
+
+  },
+  "hardware": {
+    "kuka_robot_cell": {"title":"KUKA機器人", "description": ""},
+    "hiwin_robot_cell": {"title":"上銀機器人", "description": ""},
+    "3-axis_cnc_router": {"title":"3軸CNC雕刻機", "description": ""},
+    "3d_printer": {"title":"3D印表機", "description": ""},
+    "laser_cutter": {"title":"雷射切割機", "description": ""},
+    "workshop": {"title":"工作站", "description": ""}
   }
 }

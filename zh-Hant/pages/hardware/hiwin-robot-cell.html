@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 
 <head>
+    <meta charset="utf-8">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/css/styles.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <div id="head-placeholder"></div>
     <script>
-        $(function () {
-            $("#head-placeholder").load("/header.html");
+        const currentLanguage = document.documentElement.lang;
+        let pathname = "";
+        if(currentLanguage == "en"){pathname = "/";
+        }else{pathname = "/zh-Hant/";}
+        $(function(){
+            $("#header-placeholder").load(pathname + "header.html");
+            $("#nav-placeholder").load(pathname + "nav.html");
+            $("#footer-placeholder").load(pathname + "footer.html");
         });
     </script>
 </head>
 
 <body id="page-top">
-<!--Navigation bar-->
+<div id="header-placeholder"></div>
 <div id="nav-placeholder"></div>
-<script>
-    $(function () {
-        $("#nav-placeholder").load("/nav.html");
-    });
-</script>
-<!--end of Navigation bar-->
 <!-- Main-->
 <section class="page-section" id="hiwin-robot-cell">
 
@@ -27,8 +29,8 @@
         <!-- Load MD-->
         <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
         <script type="text/javascript" src="/js/loadMD.js"></script>
-        <script>
-            loadRemoteMDtoHtml("/md/hardware/hiwin-robot-cell.md");
+        <script href="/md/zh-Hant/hardware/hiwin-robot-cell.md">
+            loadRemoteMDtoHtml(document.currentScript.getAttribute('href'));
         </script>
 
     </div>

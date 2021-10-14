@@ -4,68 +4,66 @@
         <div class="d-flex flex-row">
             <div class="language-picker">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle mr-2" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN/中
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">English</a>
-                            <a class="dropdown-item" href="#">正體中文</a>
-                        </div>
+                    <li class="nav-item">
+                        <script>
+                            function switchLanguage(){
+                                const currentLanguage = document.documentElement.lang;
+                                let pathname = window.location.pathname;
+                                if(currentLanguage == "en"){pathname = "/zh-Hant" + pathname;
+                                }else{pathname = pathname.replace('/zh-Hant', '');}
+                                window.location.href = pathname;
+                            }
+                        </script>
+                        <a class="nav-link mr-2" href="javascript:void(0)" onclick="switchLanguage();" id="navbar_language" aria-haspopup="true" aria-expanded="false">EN/正體中文</a>
                     </li>
                 </ul>
             </div>
+        </div>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars ml-1"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html#Projects">Projects</a></li>
+                <!-- TODO js-scroll-trigger -->
+                <li class="nav-item"><a class="nav-link" href="/zh-Hant/index.html#services">服務項目</a></li>
+                <li class="nav-item"><a class="nav-link" href="/zh-Hant/pages/projects/portfolio.html">專案作品</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/index.html#portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Hardware
-                    </a>
+                    <a class="nav-link dropdown-toggle" id="navbar_hardware" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/zh-Hant/index.html#portfolio">硬體設備</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/hardware/kuka-robot-cell.html">KUKA Robot Cell</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/hardware/hiwin-robot-cell.html">HIWIN Robot Cell</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/hardware/3-axis-cnc-router.html">3-axis CNC Router</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/hardware/laser-cutter.html">Laser Cutter</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/hardware/3d-printer.html">3D Printer</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/hardware/workshop.html">Workshop</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/hardware/kuka-robot-cell.html">KUKA機器人</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/hardware/hiwin-robot-cell.html">上銀機器人</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/hardware/3-axis-cnc-router.html">3軸CNC雕刻機</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/hardware/laser-cutter.html">雷射切割機</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/hardware/3d-printer.html">3D印表機</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/hardware/workshop.html">工作站</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Use & Learn
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">使用設備</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/policies/kuka-robot-qualification.html">Robot
-                            Qualification Procedure</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/policies/robot-cell-approved-projects.html">Robot Registered
-                            Projects</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/policies/space.html">Space</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/policies/safety.html">Safety</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/info/kuka-robot-qualification.html">Robot Qualification Procedure</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/info/robot-cell-approved-projects.html">Robot Registered Projects</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/info/space.html">Space</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/info/safety.html">Safety</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/policies/technical-service.html">Technical Service</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/info/technical-service.html">Technical Service</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSd6UzA2WbX7OkTVvDmLnoguLpXOh4YjRaojqegkJvUiVWt68w/viewform">Reserve</a>
-                        <a class="dropdown-item js-scroll-trigger" href="/pages/resources/download.html">Download</a>
+                        <a class="dropdown-item js-scroll-trigger" href="/zh-Hant/pages/info/download.html">Download</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About
-                    </a>
+                    <a class="nav-link dropdown-toggle" id="navbar_about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">關於</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item js-scroll-trigger" href="#team">Team</a>
+                        <a class="dropdown-item" href="/zh-Hant/pages/team.html">團隊成員</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="dropdown-item" href="/zh-Hant/index.html#contact">聯絡我們</a>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
-</div></nav>
+</nav>
 <!-- Core theme JS-->
 <script src="/js/scripts.js"></script>

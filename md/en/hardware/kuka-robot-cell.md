@@ -8,3 +8,12 @@ The use of each robot varies from semester to semester as coursework and researc
 
 ### Use and scheduling
 Students and faculty planning to use the work cells need to coordinate with the RAC-Coon staff for scheduling and/or integration of potential tooling. All approved courses and research projects are required to use the following calendars to schedule time on the robots:
+* [East robot schedule](https://calendar.google.com/calendar/u/0/embed?src=c_ts4eu8j65cggbhnt1vfvhhq5cg@group.calendar.google.com&ctz=Asia/Taipei)
+* [West robot schedule](https://calendar.google.com/calendar/u/0/embed?src=c_6dqkotq72h5r5onp2i2tvee8jk@group.calendar.google.com&ctz=Asia/Taipei)
+* [Reservation request](https://docs.google.com/forms/d/e/1FAIpQLSd6UzA2WbX7OkTVvDmLnoguLpXOh4YjRaojqegkJvUiVWt68w/viewform)
+
+### Pricing
+| User group | Machine Rate ($NTD/4Hr) | Assistant rate ($NTD/4Hr) |
+| ---------- | ----------------------- | ------------------------- |
+| NCKU       | 3600                    | 400                       |
+| Outsider   | 8000                    | 1000                      |

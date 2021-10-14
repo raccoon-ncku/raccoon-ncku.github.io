@@ -1,1 +1,1 @@
-npx static-i18n -l en -i en -i zh-Hant -o . html
+npx static-i18n -l en -i en -i zh-Hant -o . www

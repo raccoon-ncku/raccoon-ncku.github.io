@@ -1,10 +1,22 @@
 function loadRemoteMDtoHtml(_url) {
-    var converter = new showdown.Converter(),
+    var demo = function(converter) {
+        return [
+            {
+                type    : 'output',
+                regex   : '<img src=(.*)\/>',
+                replace : '<img class="img-fluid d-block mx-auto" src=$1>'
+            }
+        ];
+    }
+
+    var converter = new showdown.Converter({extensions: [demo]}),
         text = $.ajax({
             url: _url,
             async: false
-        }).responseText,
-        html = converter.makeHtml(text);
+        }).responseText
+    converter.setOption('tables', true);
+    converter.setOption('parseImgDimensions', true)
+    let html = converter.makeHtml(text);
     document.write(html);
 }
 

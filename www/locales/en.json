@@ -1,13 +1,35 @@
 {
   "language": "en",
-  "section": {
-    "hardware": {"title":"Hardware", "description": ""},
-    "team": "Team",
-    "projects": "Projects",
-    "contact_us":"Contact Us"
-  },
   "langPath": {
     "nav": "",
     "md": "/en"
+  },
+  "masthead": {
+    "heading": "",
+    "subheading": "Raccoon is a fabrication and research group at the Dept. of Architecture NCKU working at the interface of architecture, fabrication, and computation. We focus on the synthetic integration of creative and technical goals in design and construction. We are particularly interested in how robots and computational tools can play an unexpected, collaborative role in these processes."
+  },
+  "section": {
+    "services": {
+      "title":"Services",
+      "description": ""},
+    "hardware": {"title":"Hardware", "description": ""},
+    "team": {"title":"Team", "description": ""},
+    "projects": {"title":"Projects", "description": ""},
+    "contact_us":{"title":"Contact Us", "description": ""},
+    "use_and_learn": {"title":"Use & Learn", "description": ""},
+    "about": {"title":"About", "description": ""}
+  },
+  "pages": {
+    "download": "Download",
+    "reserve": "Reserve"
+
+  },
+  "hardware": {
+    "kuka_robot_cell": {"title":"KUKA Robot Cell", "description": "The largest machine in the lab is the 7 axis Kuka Robot, with a 30'x10'x8' work volume. The robot is one of the largest in the world at an architectural institution. The system has been laser calibrated to achieve accuracies approaching that of CNC machines. The robot can load either a milling head for cutting wood and foam. The robot also utilizes a gripper for material forming or assembly processes."},
+    "hiwin_robot_cell": {"title":"HIWIN Robot Cell", "description": ""},
+    "3-axis_cnc_router": {"title":"3-axis CNC Router", "description": "One 3 axis CNC router process hard wood, plywood or plastics, in addition to 3D surfacing wood and foam."},
+    "3d_printer": {"title":"3D Printer", "description": ""},
+    "laser_cutter": {"title":"Laser Cutter", "description": ""},
+    "workshop": {"title":"Workshop", "description": ""}
   }
 }

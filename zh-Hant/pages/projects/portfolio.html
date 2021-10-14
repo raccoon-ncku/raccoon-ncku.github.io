@@ -3,35 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Digital Fabrication lab at NCKU Dept. of Architecture.">
-    <meta name="author" content="Chia Ching Yen">
-    <title>Raccoon NCKU</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/css/styles.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
-
-    <!-- Import element definition -->
-    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
     <script>
+        const currentLanguage = document.documentElement.lang;
+        let pathname = "";
+        if(currentLanguage == "en"){pathname = "/";
+        }else{pathname = "/zh-Hant/";}
         $(function(){
-            $("#head-placeholder").load("/header.html");
-            $("#nav-placeholder").load("/nav.html");
-            $("#footer-placeholder").load("/footer.html");
+            $("#header-placeholder").load(pathname + "header.html");
+            $("#nav-placeholder").load(pathname + "nav.html");
+            $("#footer-placeholder").load(pathname + "footer.html");
         });
     </script>
-    <div id="header-placeholder"></div>
-    <div id="nav-placeholder"></div>
 </head>
 
 <body id="page-top">
+<div id="header-placeholder"></div>
+<div id="nav-placeholder"></div>
 
 <!-- Main-->
 <section class="page-section bg-light" id="portfolio">
@@ -47,81 +37,11 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="/assets/img/hardware/kuka_kr300_west_thumbnail.jpg" alt>
+                        <img class="img-fluid" src="/assets/img/projects/wave-eaves/IMG_0369.JPG" alt>
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">KUKA機器人</div>
-                        <div class="portfolio-caption-subheading text-muted"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="/assets/img/hardware/kuka_kr300_west_thumbnail.jpg" alt>
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">上銀機器人</div>
-                        <div class="portfolio-caption-subheading text-muted"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" href="/pages/hardware/3-axis-cnc-router.html">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="/assets/img/hardware/router-closeup-1.jpg" alt>
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">3軸CNC雕刻機</div>
-                        <div class="portfolio-caption-subheading text-muted"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="/pages/hardware/3d-printer.html">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="/assets/img/hardware/3dp.jpeg" alt>
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">3D印表機</div>
-                        <div class="portfolio-caption-subheading text-muted"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="/pages/hardware/laser-cutter.html">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="/assets/img/hardware/laser-cutter.jpg" alt>
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">雷射切割機</div>
-                        <div class="portfolio-caption-subheading text-muted"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="/pages/hardware/workshop.html">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="/assets/img/hardware/workshop.jpg" alt>
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">工作站</div>
-                        <div class="portfolio-caption-subheading text-muted"></div>
+                        <div class="portfolio-caption-heading">Wave Eaves</div>
+                        <div class="portfolio-caption-subheading text-muted">Undergrad Pavilion 2021</div>
                     </div>
                 </div>
             </div>
@@ -163,7 +83,7 @@
                         <div class="modal-body">
                             <div class="container">
                                 <!-- Load MD-->
-                                <script href="/md/zh-Hant/projects/wave-pavilion.md">
+                                <script href="/md/zh-Hant/projects/wave-eaves.md">
                                     loadRemoteMDtoHtml(document.currentScript.getAttribute('href'));
                                 </script>
                             </div>
