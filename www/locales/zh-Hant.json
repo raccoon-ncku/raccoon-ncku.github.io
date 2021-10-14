@@ -1,0 +1,13 @@
+{
+  "language": "zh-Hant",
+  "section": {
+    "hardware": {"title":"硬體設備", "description": ""},
+    "team": "Team",
+    "projects": "Projects",
+    "contact_us":"Contact Us"
+  },
+  "langPath": {
+    "nav": "",
+    "md": "/zh-Hant"
+  }
+}

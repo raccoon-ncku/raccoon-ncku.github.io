@@ -1,0 +1,13 @@
+{
+  "language": "en",
+  "section": {
+    "hardware": {"title":"Hardware", "description": ""},
+    "team": "Team",
+    "projects": "Projects",
+    "contact_us":"Contact Us"
+  },
+  "langPath": {
+    "nav": "",
+    "md": "/en"
+  }
+}

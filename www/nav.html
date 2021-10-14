@@ -1,0 +1,88 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/index.html"><img src="/assets/img/navbar-logo.svg"
+                alt="" /></a>
+        <div class="d-flex flex-row">
+            <div class="language-picker">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <script>
+                            function switchLanguage(){
+                                const currentLanguage = document.documentElement.lang;
+                                let pathname = window.location.pathname;
+                                if(currentLanguage == "en"){
+                                    pathname = "/zh-Hant" + pathname;
+                                    alert(pathname);
+                                }else{
+                                    pathname = pathname.replace('/zh-Hant', '');
+                                    alert(pathname);
+                                }
+                            }
+                        </script>
+                        <a class="nav-link mr-2" href="javascript:void(0)" onclick="switchLanguage();" id="navbar_language" aria-haspopup="true" aria-expanded="false">EN/正體中文
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html#Projects">Projects</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/index.html#portfolio" id="navbar_hardware" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hardware
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/kuka-robot-cell.html">KUKA Robot Cell</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/hardware/hiwin-robot-cell.html">HIWIN Robot Cell</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/hardware/3-axis-cnc-router.html">3-axis CNC Router</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/hardware/laser-cutter.html">Laser Cutter</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/hardware/3d-printer.html">3D Printer</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/hardware/workshop.html">Workshop</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Use & Learn
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/policies/kuka-robot-qualification.html">Robot
+                            Qualification Procedure</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/policies/robot-cell-approved-projects.html">Robot Registered
+                            Projects</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/policies/space.html">Space</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/policies/safety.html">Safety</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/policies/technical-service.html">Technical Service</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSd6UzA2WbX7OkTVvDmLnoguLpXOh4YjRaojqegkJvUiVWt68w/viewform">Reserve</a>
+                        <a class="dropdown-item js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/resources/download.html">Download</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbar_about" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item js-scroll-trigger" href="#team">Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item js-scroll-trigger" href="#contact">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Core theme JS-->
+<script src="/js/scripts.js"></script>

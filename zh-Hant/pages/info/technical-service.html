@@ -1,36 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 
-<head>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <div id="head-placeholder"></div>
-    <script>
-        $(function () {
-            $("#head-placeholder").load("/header.html");
-        });
-    </script>
-</head>
-
-<body id="page-top">
-    <!--Navigation bar-->
-    <div id="nav-placeholder"></div>
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("/nav.html");
-        });
-    </script>
-    <!--end of Navigation bar-->
+iv>
+<div id="nav-placeholder"></div>
     <!-- Main-->
     <section class="page-section" id="kuka_robot_qualification">
-
         <div class="container">
-            <script>
-                <!-- Load MD-->
-                <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
-                <script type="text/javascript" src="/js/loadMD.js"></script>
-                loadRemoteMDtoHtml("/md/policies/kuka-robot-qualification.md");
-            
-
+            <!-- Load MD-->
+            <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
+            <script type="text/javascript" src="/js/loadMD.js"></script>
+            <script href="/md/zh-Hant/policies/technical-service.md">
+                loadRemoteMDtoHtml(document.currentScript.getAttribute('href'));
+            </script>
         </div>
     </section>
     <!-- Footer-->
@@ -51,6 +32,6 @@
     <script src="/assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="/js/scripts.js"></script>
-</body>
+
 
 </html>
