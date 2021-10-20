@@ -1,11 +1,47 @@
-## Laser Cutter
-### Overview
-Overview placeholder
-### Access Procedure
-Access placeholder
-### Material
-Material placeholder
-### Use and scheduling
-Use placeholder
-### Pricing
-Pricing placeholder
+## 雷射切割機
+![laser_cutter](/assets/img/hardware/laser-cutter.jpg)
+現有兩台雷切機開放建築系所及規劃設計學院師生使用，位在建築系館B1西北角的雷切室內。
+
+## 使用程序
+* 確認欲使用的材料與尺寸符合規定
+* 填寫表單選擇使用時段，最晚於前一天17:00前，一天最多預約四個時段
+* 若預約時段結束，後面時段無人則視情況可加時段
+* 於預約時段攜帶**學生證**、**雷切所需金額**
+* 管理員只等候10分鐘，請在預約時間準時到達，超過時間會被取消時段
+* 若需要取消預約，請於前一晚23:59完成作業，並寄信告知管理員
+* 準備好3DM/DWG/DXF檔案(需事先將檔案email給管理員並於當天自行攜帶儲存裝置) 
+* 管理員保留拒絕切割或雕刻部分圖檔之權力
+* 雷切機使用完畢後與管理員一同**協助場地復原清潔**
+
+
+## 管理員班表
+![shift_time](/assets/img/about/shift_time_latest.jpg)
+* 張祖林 n76094281 at gs.ncku.edu.tw
+* 蕭瑋廷 n76081018 at gs.ncku.edu.tw 
+* 吳怡諄 n76084155 at gs.ncku.edu.tw
+
+## 材料 
+* 壓克力 10mm以下
+* 紙板 3mm以下
+* 密集板 
+
+切記勿將壓克力與 ABS 混淆，否則將依情況額外收清理費500元。
+
+## 工作範圍 
+* (Laser Cutter 1) : 812.8 x 457.2 mm
+* (Laser Cutter 2) : 609.6 x 457.2 mm 
+
+## 檔案準備
+1. 檔案格式：3DM/DWG/DXF
+2. 刪除所有重複線
+3. 黑色(R:0/G:0/B:0)為切斷
+4. 紅色(R:255/G:0/B:0)為雕刻，線粗需調成想切的寬度
+5. 綠色(R:0/G:255/B:0)為參考線，不切割不雕刻，用於標示材料邊界等
+
+## 費率
+因雷切時間會因機台老化而有所變化，
+* 5 mm以下：每分鐘5元
+* 超過5 mm，7 mm以下：每分鐘7元
+* 超過7 mm：每分鐘10元
+雷射切割時間未滿1分鐘者，都以1分鐘來計算收費。
+ 
