@@ -1,0 +1,89 @@
+{
+    "title": "Raccoon Pre-workshop Evaluation Survey",
+    "description": "Please finish this survey either in English or Chinese at your preference.",
+    "pages": [
+        {
+            "elements": [
+                {
+                    "type": "text",
+                    "name": "question1",
+                    "title": "Legal Name",
+                    "isRequired": true
+                },
+                {
+                    "type": "text",
+                    "name": "question2",
+                    "title": "Preferred Name"
+                },
+                {
+                    "type": "text",
+                    "name": "question5",
+                    "title": "Previous Degrees/Majors/Universities"
+                }
+            ]
+        },
+        {
+            "name": "page2",
+            "elements": [
+                {
+                    "type": "comment",
+                    "name": "question3",
+                    "title": "Level of proficiency in Rhino",
+                    "isRequired": true
+                },
+                {
+                    "type": "comment",
+                    "name": "Level of proficiency in Grasshopper"
+                }
+            ]
+        },
+        {
+            "name": "page1",
+            "elements": [
+                {
+                    "type": "comment",
+                    "name": "question4",
+                    "title": "Level of proficiency in Python",
+                    "isRequired": true
+                },
+                {
+                    "type": "comment",
+                    "name": "question6",
+                    "title": "Any other programming experiences",
+                    "description": "e.g., Java, C# etc."
+                }
+            ]
+        },
+        {
+            "name": "page3",
+            "elements": [
+                {
+                    "type": "comment",
+                    "name": "question7",
+                    "title": "Experience in Robotic Fabrication"
+                },
+                {
+                    "type": "comment",
+                    "name": "question8",
+                    "title": "Any other making/crafting/digital fabrication experience ",
+                    "description": "e.g., woodworking, metalworking, CNC milling etc."
+                }
+            ]
+        },
+        {
+            "name": "page4",
+            "elements": [
+                {
+                    "type": "comment",
+                    "name": "question9",
+                    "title": "Research Experience/Publications (if any)"
+                },
+                {
+                    "type": "comment",
+                    "name": "question10",
+                    "title": "Others (e.g., Professional Experience, Physical Computing, Algorithmic Methods, Optimization Techniques etc.):"
+                }
+            ]
+        }
+    ]
+}
