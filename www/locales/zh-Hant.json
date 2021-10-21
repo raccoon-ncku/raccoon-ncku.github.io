@@ -4,6 +4,10 @@
     "nav": "/zh-Hant",
     "md": "/zh-Hant"
   },
+  "masthead": {
+    "heading": "",
+    "subheading": "Raccoon is a fabrication and research group at the Dept. of Architecture NCKU working at the interface of architecture, fabrication, and computation. We focus on the synthetic integration of creative and technical goals in design and construction. We are particularly interested in how robots and computational tools can play an unexpected, collaborative role in these processes."
+  },
   "section": {
     "services": {
       "title":"服務項目",
@@ -12,13 +16,33 @@
     "team": {"title":"團隊成員", "description": ""},
     "projects": {"title":"專案作品", "description": ""},
     "contact_us":{"title":"聯絡我們", "description": ""},
-    "use_and_learn": {"title":"使用設備", "description": ""},
+    "use_and_learn": {"title":"學習及使用", "description": ""},
     "about": {"title":"關於", "description": ""}
   },
   "pages": {
-    "download": "Download",
-    "reserve": "Reserve"
-
+    "resources":{
+      "software_resources":"數位資產",
+      "learning_resources":"學習資源",
+      "download": "下載"
+    },
+    "info":{
+      "computation_consulting": "演算諮詢",
+      "space":"空間/場地",
+      "space_reservation":"場地借用",
+      "robot_training_program":"工業機器人訓練程序",
+      "registered_robotic_projects":"工業機器人登記專案",
+      "robot_reservation":"工業機器人借用"
+    },
+    "team":{
+      "members":{
+        "yhtu":{"name:":"杜怡萱","title":"執行長"},
+        "ytshen":{"name:":"沈揚庭","title":"副執行長"},
+        "sfchien":{"name:":"簡聖芬","title":"指導老師"},
+        "sclin":{"name:":"林軒承","title":"指導老師"},
+        "ccyen":{"name:":"顏嘉慶","title":"經理/開發主管"},
+        "fccheng":{"name:":"鄭方哲","title":"經理"}
+      }
+    }
   },
   "hardware": {
     "kuka_robot_cell": {"title":"KUKA機器人", "description": ""},
