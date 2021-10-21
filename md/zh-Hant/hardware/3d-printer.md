@@ -1,11 +1,29 @@
-## 3D Printer
-### Overview
-Overview placeholder
-### Access Procedure
-Access placeholder
-### Material
-Material placeholder
-### Use and scheduling
-Use placeholder
-### Pricing
-Pricing placeholder
+## 3D印表機
+![3D-Printing](/assets/img/hardware/3dp.jpeg)
+3D印表機是透過層層堆疊材料的方式，將立體形狀輸出的機器。能輕易地製作一體成型、造型相對複雜的模型。
+
+### 使用程序
+目前建築系以收費代印方式，為規劃與設計學院師生印製模型。請使用者攜帶3D模型至數位製造工坊，由管理員或工坊經理代為設定及列印，計算並收取費用，於完成後通知取件。
+
+### 材料
+限定使用白色PLA，由工坊提供。目前不提供自備材料服務。
+
+### 作業範圍
+目前最大可列印範圍為L250 x W210 x H410 mm
+
+### 檔案準備
+僅接受STL檔。
+
+### 費率
+每公克2元，以最新版Cura切片計算所需材料重量。若無特殊需求，預設以以下參數列印：
+* 0.2mm層高
+* 不印底座
+* 不印支撐
+* 2層殼及
+* 10％ line填充。
+ 
+管理員將試模型需求調整設定值以增加列印成功率。
+
+### 注意事項
+1. 若管理員於事前告知可能會因模型問題而導致列印失敗，而使用者希望能繼續列印時，列印失敗仍會依照材料耗損量收取費用。
+2. 若先前無使用印表機經驗，建議事先到工坊諮詢。
