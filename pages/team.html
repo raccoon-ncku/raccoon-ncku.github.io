@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        const currentLanguage = document.documentElement.lang;
+        let pathname = "";
+        if(currentLanguage == "en"){pathname = "/";
+        }else{pathname = "/zh-Hant/";}
+        $(function(){
+            $("#header-placeholder").load(pathname + "header.html");
+            $("#nav-placeholder").load(pathname + "nav.html");
+            $("#footer-placeholder").load(pathname + "footer.html");
+        });
+    </script>
+</head>
+
+<body id="page-top">
+<div id="header-placeholder"></div>
+<div id="nav-placeholder"></div>
+<!-- Main-->
+<!-- Team-->
+<section class="page-section" id="team">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Team</h2>
+            <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="/assets/img/team/YH_Tu.jpg" alt>
+                    <h4>Yi-Hsuan Tu.name</h4>
+                    <p class="text-muted">Chief Execute Officer.title</p>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-globe"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-researchgate"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="/assets/img/team/Yang_Ting_Shen.jpg" alt>
+                    <h4>Yang-Ting Shen.name</h4>
+                    <p class="text-muted">Vice Execute Officer.title</p>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-globe"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-researchgate"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="/assets/img/team/Sheng_Fen_Chien.jpg" alt>
+                    <h4>Sheng-Fen Chien.name</h4>
+                    <p class="text-muted">Vice Execute Officer.title</p>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-globe"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-researchgate"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="/assets/img/team/shiuan_lin.jpg" alt>
+                    <h4>sclin.name</h4>
+                    <p class="text-muted">sclin.title</p>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-globe"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-researchgate"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="/assets/img/team/CCYen.jpg" alt>
+                    <h4>ccyen.name</h4>
+                    <p class="text-muted">ccyen.title</p>
+                    <a class="btn btn-dark btn-social mx-2" href="https://jasonmelon.wixsite.com/fusion-mutation"><i class="fas fa-globe"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.researchgate.net/profile/Chia_Ching_Yen?ev=hdr_xprf"><i class="fab fa-researchgate"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/chia-ching-yen-01832283"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="/assets/img/team/FCCheng.jpg" alt>
+                    <h4>fccheng.name</h4>
+                    <p class="text-muted">fccheng.title</p>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-globe"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-researchgate"></i></a>
+                    <a class="disabled btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer-->
+<div id="footer-placeholder"></div>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="/assets/mail/jqBootstrapValidation.js"></script>
+<script src="/assets/mail/contact_me.js"></script>
+<!-- Core theme JS-->
+<script src="/js/scripts.js"></script>
+</body>
+
+</html>

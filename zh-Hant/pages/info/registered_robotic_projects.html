@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        const currentLanguage = document.documentElement.lang;
+        let pathname = "";
+        if(currentLanguage == "en"){pathname = "/";
+        }else{pathname = "/zh-Hant/";}
+        $(function(){
+            $("#header-placeholder").load(pathname + "header.html");
+            $("#nav-placeholder").load(pathname + "nav.html");
+            $("#footer-placeholder").load(pathname + "footer.html");
+        });
+    </script>
+</head>
+
+<body id="page-top">
+<div id="header-placeholder"></div>
+<div id="nav-placeholder"></div>
+    <!-- Main-->
+    <section class="page-section" id="kuka_robot_qualification">
+
+        <div class="container text-center my-4">
+            <h2>Current Kuka KR-300 Registered Project</h2>
+            <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
+
+            <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1UolxekFFCr8YnBlK-SnSpZMVvfSUlcGz6Hk7zr-agwc/edit?usp=sharing" role="button" target="_blank">View the source sheet</a>
+            <div id="table-placeholder">Loading from Google sheet</div>
+            <!-- Table  -->
+            <script>
+                $.get("https://docs.google.com/spreadsheets/d/1UolxekFFCr8YnBlK-SnSpZMVvfSUlcGz6Hk7zr-agwc/gviz/tq?tqx=out:html&tq&gid=0 body", function (data) {
+                    $("#table-placeholder").replaceWith(data);
+                });
+            </script>
+            <!-- Table  -->
+
+        </div>
+    </section>
+    <!-- Footer-->
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("/footer.html");
+        });
+    </script>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="/assets/mail/jqBootstrapValidation.js"></script>
+    <script src="/assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>
