@@ -1,11 +1,2 @@
 ## Workshop
-### Overview
-Overview placeholder
-### Access Procedure
-Access placeholder
-### Material
-Material placeholder
-### Use and scheduling
-Use placeholder
-### Pricing
-Pricing placeholder
+This page is not available in English yet, please refer to the Chinese version.

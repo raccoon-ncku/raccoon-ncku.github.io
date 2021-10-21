@@ -1,11 +1,12 @@
-## 3 Axis CNC Router
-### Overview
-Overview placeholder
-### Access Procedure
-Access placeholder
-### Material
-Material placeholder
-### Use and scheduling
-Use placeholder
-### Pricing
-Pricing placeholder
+## 3軸CNC雕刻機
+![3-axis CNC Router](assets/img/hardware/router-closeup-1.jpg)
+3軸CNC雕刻機透過由電腦控制的主軸，將加工材料銑削至指定的形狀。
+
+### 使用程序
+目前3軸CNC雕刻機正在建立切割參數及標準作業流程，當準備完善後會開放給予規劃與設計學院師生使用。在此之前，若有木材或發泡材料加工需求，請親洽數位智造工坊，將專案內容以個案處理支援。
+
+### 材料
+木材、密集板等
+
+### 作業範圍
+目前最大可加工範圍為L2400 x W1200 x H100 mm
