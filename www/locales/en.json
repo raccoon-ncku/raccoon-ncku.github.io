@@ -20,9 +20,29 @@
     "about": {"title":"About", "description": ""}
   },
   "pages": {
-    "download": "Download",
-    "reserve": "Reserve"
-
+    "resources":{
+      "software_resources":"Software Resources",
+      "learning_resources":"Learning Resources",
+      "download": "Download"
+    },
+    "info":{
+      "computation_consulting": "Computation Consulting",
+      "space":"Space",
+      "space_reservation":"Space Reservation",
+      "robot_training_program":"Robot Training Program",
+      "registered_robotic_projects":"Registered Robotic projects",
+      "robot_reservation":"Robot Reservation"
+    },
+    "team":{
+      "members":{
+        "yhtu":{"name:":"Yi-Hsuan Tu","title":"Chief Execute Officer"},
+        "ytshen":{"name:":"Yang-Ting Shen","title":"Vice Execute Officer"},
+        "sfchien":{"name:":"Sheng-Fen Chien","title":"Advisor"},
+        "sclin":{"name:":"Shiuan-Cheng Lin","title":"Advisor"},
+        "ccyen":{"name:":"Chia-Ching Yen","title":"Manager / Lead Developer"},
+        "fccheng":{"name:":"Fang-Che Cheng","title":"Manager"}
+      }
+    }
   },
   "hardware": {
     "kuka_robot_cell": {"title":"KUKA Robot Cell", "description": "The largest machine in the lab is the 7 axis Kuka Robot, with a 30'x10'x8' work volume. The robot is one of the largest in the world at an architectural institution. The system has been laser calibrated to achieve accuracies approaching that of CNC machines. The robot can load either a milling head for cutting wood and foam. The robot also utilizes a gripper for material forming or assembly processes."},
