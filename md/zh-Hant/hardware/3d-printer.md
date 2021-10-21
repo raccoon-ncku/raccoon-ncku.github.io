@@ -1,5 +1,5 @@
 ## 3D印表機
-![3D-Printing](/assets/img/hardware/3dp.jpeg)
+![3D-Printing](/assets/img/hardware/3dp.jpg)
 3D印表機是透過層層堆疊材料的方式，將立體形狀輸出的機器。能輕易地製作一體成型、造型相對複雜的模型。
 
 ### 使用程序
