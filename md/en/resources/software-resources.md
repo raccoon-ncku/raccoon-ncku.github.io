@@ -12,10 +12,9 @@ Raccoon [GitHub](https://github.com/raccoon-ncku)
 ### ROS
 Raccoon Docker files
 
-
 ### Proprietary Software
 Raccoon also purchased various industrial-standard software for educational purpose.
 * NX 3-Axis CAM
 * RoboDK
-* Rhino 6
+* KUKA|prc
 
