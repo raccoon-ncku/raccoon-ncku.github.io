@@ -1,7 +1,6 @@
-Workspace Raccoon offers consultants for computational design, simulation, and digital fabrication.
-We use Python as our primary programming language, and we're confident to help you establish a computational workflow in Python.
+數位智造工坊為系上師生提供演算設計，模擬與數位製造的諮詢服務。工坊主要的開發語言為Python，有把握為各位建立基於Python的演算設計工作流程。
 
-Besides, questions regarding these tools are welcome as we also use them to some extent:
+另外因為工坊業務有接觸其他的工具，如：
 * C# (Rhino/Grasshopper API)
 * Java (Processing)
 * C++ (Arduino, Robot Operating System)
@@ -9,10 +8,9 @@ Besides, questions regarding these tools are welcome as we also use them to some
 * git
 * Docker
 * Mastercam / NX CAM / Cura
+以上工具相關問題都在可以協助的範圍，歡迎各位同學老師多加利用！
 
-You don't need to enroll in any course or program to use this service, as long as you're a student or faculty in the Dept. of Architecture, NCKU.
-* Time: 15:00-17:00, Every Wednesday
-* Date: From this week to the end of the semester
-* Location: Raccoon Studio (1F, Architecture Research Building)
-* Contact: e74996112 at gs.ncku.edu.tw
-* Remote consulting is also available via Cisco Webex
+* 學期間每週三15:00-17:00
+* 地點：數位智造工坊 (建築科技大樓一樓)
+* 聯絡方式：e74996112 at gs.ncku.edu.tw
+* 亦可使用Cisco Webex遠端諮詢

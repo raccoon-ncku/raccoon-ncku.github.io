@@ -32,7 +32,7 @@
 * 如有損壞或遺失，借用者須照價賠償或同等品牌規格之新品
 
 ### 管理員班表
-![shift_time](shift_time_latest.jpg)
+![shift_time](/assets/img/about/shift_time_latest.jpg)
 * 張祖林 n76094281 at gs.ncku.edu.tw
 * 蕭瑋廷 n76081018 at gs.ncku.edu.tw
 * 吳怡諄 n76084155 at gs.ncku.edu.tw

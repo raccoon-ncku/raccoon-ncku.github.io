@@ -12,7 +12,6 @@ Besides, questions regarding these tools are welcome as we also use them to some
 
 You don't need to enroll in any course or program to use this service, as long as you're a student or faculty in the Dept. of Architecture, NCKU.
 * Time: 15:00-17:00, Every Wednesday
-* Date: From this week to the end of the semester
 * Location: Raccoon Studio (1F, Architecture Research Building)
 * Contact: e74996112 at gs.ncku.edu.tw
 * Remote consulting is also available via Cisco Webex

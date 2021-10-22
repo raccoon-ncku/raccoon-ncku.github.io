@@ -1,5 +1,5 @@
 ## 3軸CNC雕刻機
-![3-axis CNC Router](assets/img/hardware/router-closeup-1.jpg)
+![3-axis CNC Router](/assets/img/hardware/router-closeup-1.jpg)
 3軸CNC雕刻機透過由電腦控制的主軸，將加工材料銑削至指定的形狀。
 
 ### 使用程序
