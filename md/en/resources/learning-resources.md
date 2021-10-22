@@ -1,31 +1,8 @@
-# Digital Asset
+## Learning Resources
 
-Our digital asset is as important as our physical resources.
+### Training Manuals
+* [KUKA Robot Operator Training Level 1](https://docs.google.com/presentation/d/15XVlAwplSnY7Gh0MX_H0Y_2SLvio-tZHKGouif-THcs/edit?usp=sharing)
+* [KUKA Robot Operator Training Level 2](https://docs.google.com/presentation/d/1SyEaTxjdgMYg-n369yYk0QSWTVsNnvTe_xXuBvhwjtk/edit?usp=sharing)
 
-## Computation Consulting
-Python, Grasshopper, Computational design, RhinoScript.
 
-### Computational Framework
-Raccoon strongly recommends using [COMPAS](https://compas.dev) as the framework for every computational design project. It's an open-source framework developed by ETH. Its various [extensions](https://compas.dev/extensions.html) enable projects focusing on different topics to exchange their toolset.
-
-### Source codes
-Raccoon [GitHub](https://github.com/raccoon-ncku)
-
-### ROS
-Raccoon Docker files
-
-### Plug-ins
-
----
-
-### Proprietary Software
-Raccoon also purchased various industrial-standard software for educational purpose.
-* NX 3-Axis CAM
-* RoboDK
-* Rhino 6
-
----
-
-# Computation Projects
-* Timber flow
 
