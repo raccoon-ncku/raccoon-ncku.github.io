@@ -25,6 +25,7 @@
   --gray: #eeeeee;
   --gray-dark: #595959;
   --primary: #fda33b;
+  --primary-tran: rgba(253, 163, 59, 0.5);
   --secondary: #489FB5;
   --success: #28a745;
   --info: #17a2b8;
@@ -479,6 +480,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.img-fix-size {
+  max-width: 100%;
+  max-height: 60%;
+  object-fit: cover;
 }
 
 .img-thumbnail {
@@ -10187,10 +10193,11 @@ header.masthead .masthead-heading a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background-color: var(--primary-tran);
+  border-width: 10px;
+  opacity: 0;
   align-items: center;
   justify-content: center;
-  opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {

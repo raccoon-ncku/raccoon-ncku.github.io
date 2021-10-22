@@ -45,9 +45,9 @@
     }
   },
   "hardware": {
-    "kuka_robot_cell": {"title":"KUKA Robot Cell", "description": "The largest machine in the lab is the 7 axis Kuka Robot, with a 30'x10'x8' work volume. The robot is one of the largest in the world at an architectural institution. The system has been laser calibrated to achieve accuracies approaching that of CNC machines. The robot can load either a milling head for cutting wood and foam. The robot also utilizes a gripper for material forming or assembly processes."},
+    "kuka_robot_cell": {"title":"KUKA Robot Cell", "description": ""},
     "hiwin_robot_cell": {"title":"HIWIN Robot Cell", "description": ""},
-    "3-axis_cnc_router": {"title":"3-axis CNC Router", "description": "One 3 axis CNC router process hard wood, plywood or plastics, in addition to 3D surfacing wood and foam."},
+    "3-axis_cnc_router": {"title":"3-axis CNC Router", "description": ""},
     "3d_printer": {"title":"3D Printer", "description": ""},
     "laser_cutter": {"title":"Laser Cutter", "description": ""},
     "workshop": {"title":"Workshop", "description": ""}
