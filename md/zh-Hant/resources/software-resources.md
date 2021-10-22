@@ -15,7 +15,7 @@ Raccoon [GitHub](https://github.com/raccoon-ncku)
 ---
 
 ### 版權軟體
-Raccoon also purchased various industrial-standard software for educational purpose.
+Raccoon管理以下軟體授權，如有需要請到工坊諮詢。
 * NX 3-Axis CAM
 * RoboDK
 * KUKA|prc
