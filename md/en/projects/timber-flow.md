@@ -1,8 +1,7 @@
 ![cover](/assets/img/projects/timber-flow/timber_flow_iso-1@0.25x.png)
 
 ## Timber Flow
-
-* Bio Architecture Formosana, Chia-Ching Yen, Yang-Ting Shen
+Bio Architecture Formosana, Chia-Ching Yen, Yang-Ting Shen
 
 ### Concept
 

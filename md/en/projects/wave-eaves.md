@@ -1,13 +1,13 @@
 ![cover](/assets/img/projects/wave-eaves/IMG_0369.JPG)
 
 ## 波簷
-## Wave Eaves 
-### Members
+## Wave Eaves
 
+指導老師：沈揚庭 (shen yang ting)
 
-* 指導老師：沈揚庭 (shen yang ting)
-* 技術指導：蕭瑋廷(hsaio wei ting) 顏嘉慶(yen chia ching)
-* 參與學生：林彥甫(lin yan fu)、王舜昱(wang shun yu)、涂孟綸(tu meng lun)、龔柏宇(gong bo yu)、蕭郁霖(hsiao yu lin)
+技術指導：蕭瑋廷(hsaio wei ting) 顏嘉慶(yen chia ching)
+
+參與學生：林彥甫(lin yan fu)、王舜昱(wang shun yu)、涂孟綸(tu meng lun)、龔柏宇(gong bo yu)、蕭郁霖(hsiao yu lin)
 
 
 ### Concept
