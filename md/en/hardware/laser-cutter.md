@@ -49,4 +49,6 @@ The fee is calculated with the machine's operation time.
 The cutting time will prolong on older machines, so using the old machine for cutting will receive a 70% off.
 
 ### Reservation Request
-Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfb7LfBw3krto0ne0Xhq992D16tcGEg
+Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfb7LfBw3krto0ne0Xhq992D16tcGEgtaDMYD9pogVkKNA3yg/viewform?vc=0&c=0&w=1&flr=0) to reserve the machine.
+
+ATTENTION: You will receive TWO conformation emails after submitting the form. The first is a confirmation mail that the system has received your request and there is no reservation conflict. Once the assistant has reviewed the request, you will receive the second email. Any notification, such as rescheduling or file problems, will be sent with emails.
