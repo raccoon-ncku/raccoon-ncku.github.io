@@ -22,7 +22,7 @@ For the complete tool list, please refer to the chart below:
 * After use, restore and clean the workplace.
 
 ### Rate
-Machine with fee rate will be marked, otherwise is free.
+If not specified otherwise, free.
 Bits, blades, and other disposable parts are not always provided.
 
 ### Regulation
