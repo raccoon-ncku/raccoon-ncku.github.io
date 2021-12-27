@@ -27,6 +27,7 @@
     },
     "info":{
       "computation_consulting": "Computation Consulting",
+      "internal_general_terms":"General Terms of Use (internal)",
       "space":"Space",
       "space_reservation":"Space Reservation",
       "robot_training_program":"Robot Training Program",

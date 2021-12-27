@@ -27,6 +27,7 @@
     },
     "info":{
       "computation_consulting": "演算諮詢",
+      "internal_general_terms":"使用條款(校內)",
       "space":"空間/場地",
       "space_reservation":"場地借用",
       "robot_training_program":"工業機器人訓練程序",

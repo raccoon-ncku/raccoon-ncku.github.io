@@ -4,6 +4,7 @@ Laser Cutter focuses laser beams on the surface of the material, cutting the mat
 The workspace operates two laser cutter systems for CPD faculty and students. All of them are located in the laser cutter room, on the northwest basement of the architecture building.
 
 ### Access Procedure
+* Please follow the [General Terms of Use](https://raccoon-ncku.github.io/pages/info/internal-general-terms.html) and the terms listed on this page.
 * Please check your material and cutting geometry meet the machine limitations.
 * Fill out the form below to reserve a time slot no later than 17:00 on the day before cutting.
 * To cancel a reservation, please email the assistant before 23:00 on the day before cutting.

@@ -7,6 +7,7 @@ For the complete tool list, please refer to the chart below:
 
 
 ### Access Procedure
+* Please follow the [General Terms of Use](https://raccoon-ncku.github.io/pages/info/internal-general-terms.html) and the terms listed on this page.
 #### Checking-out
 * Please visit Raccoon, a reservation is not required.
 * If you'd like to reserve a tool, contact the assistants via email.

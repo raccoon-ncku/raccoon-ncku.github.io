@@ -7,6 +7,7 @@
 
 
 ### 使用程序
+* 請遵守[智造工坊使用條款](https://raccoon-ncku.github.io/zh-Hant/pages/info/internal-general-terms.html) 及此頁所記載事項
 #### 外借
 * 無須預約，親洽數位智造工坊
 * 如希望預定借用，請向欲借出時段之管理員以email約定物品及時間地點
