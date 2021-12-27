@@ -40,7 +40,10 @@ Please do not the mixed acrylic with ABS, cutting such material will be charged 
 * above 7 mm: NTD $10/min
 
 The fee is calculated with the machine's operation time.
+
 The cutting time will prolong on older machines, so using the old machine for cutting will receive a 70% off.
+
+Raccoon will keep tracking the usage of the machines, and all printing will be recorded as a reference to adjust the machine rates. We’ve been committed to balancing the maintenance cost and the machine rate, running an affordable and sustainable laser cut service for faculty and students. Any update on the price will be announced on this page.
 
 ### Reservation Request
 Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfb7LfBw3krto0ne0Xhq992D16tcGEgtaDMYD9pogVkKNA3yg/viewform?vc=0&c=0&w=1&flr=0) to reserve the machine.
