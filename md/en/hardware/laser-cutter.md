@@ -5,7 +5,7 @@ The workspace operates two laser cutter systems for CPD faculty and students. Al
 
 ### Access Procedure
 * Please follow the [General Terms of Use](https://raccoon-ncku.github.io/pages/info/internal-general-terms.html) and the terms listed on this page.
-* Please check your material and cutting geometry meet the machine limitations.
+* Please check your material and cutting geometry lay within the machines' limitations.
 * Fill out the form below to reserve a time slot no later than 17:00 on the day before cutting.
 * To cancel a reservation, please email the assistant before 23:00 on the day before cutting.
 * Bring **material**, **cutting files**, **cash** at the reserved time.
