@@ -13,13 +13,6 @@
 * 若預約時段結束，後面時段無人則視情況可加時段
 * 雷切機使用完畢後與管理員一同**協助場地復原清潔**
 
-
-### 管理員班表
-![shift_time](/assets/img/about/shift_time_latest.jpg)
-* 張祖林 n76094281 at gs.ncku.edu.tw
-* 蕭瑋廷 n76081018 at gs.ncku.edu.tw 
-* 吳怡諄 n76084155 at gs.ncku.edu.tw
-
 ### 材料 
 * 壓克力 10mm以下
 * 紙板 3mm以下
@@ -52,3 +45,8 @@
 請填寫此[表單](https://docs.google.com/forms/d/e/1FAIpQLSfb7LfBw3krto0ne0Xhq992D16tcGEgtaDMYD9pogVkKNA3yg/viewform?vc=0&c=0&w=1&flr=0)進行預約。
 
 注意：填寫完表單後，將收到兩封確認信，第一封為系統確認時間無衝突後自動發送，第二封為管理員確認後所寄出的確認信。如有其他通知事項，如改期或檔案問題，管理員將以email與預約者聯繫。
+
+### 管理員聯絡方式
+* 張祖林 n76094281 at gs.ncku.edu.tw
+* 蕭瑋廷 n76081018 at gs.ncku.edu.tw
+* 吳怡諄 n76084155 at gs.ncku.edu.tw

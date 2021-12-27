@@ -13,13 +13,6 @@ The workspace operates two laser cutter systems for CPD faculty and students. Al
 * If there is no one reserving the next time slot, one could keep cutting after the reservation.
 * Please help the assistant to restore and clean the laser cutter room after cutting.
 
-
-### Assistant Shift
-![shift_time](/assets/img/about/shift_time_latest.jpg)
-* T.L. Chang 張祖林 n76094281 at gs.ncku.edu.tw
-* W.T. Hsiao 蕭瑋廷 n76081018 at gs.ncku.edu.tw
-* Y.C. Wu 吳怡諄 n76084155 at gs.ncku.edu.tw
-
 ### Material
 * Acrylic =< 10 mm
 * Paperboard =< 3 mm
@@ -41,7 +34,7 @@ Please do not the mixed acrylic with ABS, cutting such material will be charged 
 6. Please draw the material boundaries on the green layer, and arrange your cutting geometries in it.
 
 ### Machine Rate
-* up to 5 mm: NTD $7/min
+* up to 5 mm: NTD $5/min
 * above 5 mm, up to 7 mm: NTD $7/min
 * above 7 mm: NTD $10/min
 
@@ -51,4 +44,10 @@ The cutting time will prolong on older machines, so using the old machine for cu
 ### Reservation Request
 Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfb7LfBw3krto0ne0Xhq992D16tcGEgtaDMYD9pogVkKNA3yg/viewform?vc=0&c=0&w=1&flr=0) to reserve the machine.
 
-ATTENTION: You will receive TWO conformation emails after submitting the form. The first is a confirmation mail that the system has received your request and there is no reservation conflict. Once the assistant has reviewed the request, you will receive the second email. Any notification, such as rescheduling or file problems, will be sent with emails.
+ATTENTION: You will receive TWO conformation emails after submitting the form. The first is a confirmation mail that the system has received your request and there is no reservation conflict. Once the assistant has reviewed the request, you will receive the second email. Any further notification, such as rescheduling or file problems, will be sent to you with emails.
+
+
+### Assistants
+* T.L. Chang 張祖林 n76094281 at gs.ncku.edu.tw
+* W.T. Hsiao 蕭瑋廷 n76081018 at gs.ncku.edu.tw
+* Y.C. Wu 吳怡諄 n76084155 at gs.ncku.edu.tw

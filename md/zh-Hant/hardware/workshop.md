@@ -35,8 +35,7 @@
   * 工具結束使用後，未恢復現場
   * 因疏於照顧對設備造成難以復原的污損，如沾染漆料、石膏等
 
-### 管理員班表
-![shift_time](/assets/img/about/shift_time_latest.jpg)
+### 管理員聯絡方式
 * 張祖林 n76094281 at gs.ncku.edu.tw
 * 蕭瑋廷 n76081018 at gs.ncku.edu.tw
 * 吳怡諄 n76084155 at gs.ncku.edu.tw

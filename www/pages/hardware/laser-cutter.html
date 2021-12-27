@@ -34,16 +34,17 @@
         </script>
 
     </div>
-    <div class="container text-center my-4">
-    <div id="table-placeholder">Loading from Google Sheet</div>
-    <!-- Table  -->
-    <script>
-        $.get("https://docs.google.com/spreadsheets/d/1AI3bSqMw3zWzwscZD5Cc2LLCJgbSwDLqm0HQCfQuq2c/gviz/tq?sheet=LaserCutterLatest&tqx=out:html&tq&gid=0 body", function (data) {
-            $("#table-placeholder").replaceWith(data);
-        });
-    </script>
+    <div class="container">
+        <h3>Assistant Shift</h3>
+        <!-- Table  -->
+        <div id="table-placeholder">Loading from Google Sheet</div>
+        <script>
+            $.get("https://docs.google.com/spreadsheets/d/1AI3bSqMw3zWzwscZD5Cc2LLCJgbSwDLqm0HQCfQuq2c/gviz/tq?sheet=LaserCutterLatest&tqx=out:html&tq&gid=0 body", function (data) {
+                $("#table-placeholder").replaceWith(data);
+            });
+        </script>
+        <!-- Table  -->
     </div>
-    <!-- Table  -->
 </section>
 <!-- Footer-->
 <div id="footer-placeholder"></div>
