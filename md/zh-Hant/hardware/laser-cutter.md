@@ -55,4 +55,4 @@
 * 張祖林 n76094281 at gs.ncku.edu.tw
 * 蕭瑋廷 n76081018 at gs.ncku.edu.tw
 * 吳怡諄 n76084155 at gs.ncku.edu.tw
-* 王順昱 e74066098 at gs.ncku.edu.tw
+* 王舜昱 e74066098 at gs.ncku.edu.tw

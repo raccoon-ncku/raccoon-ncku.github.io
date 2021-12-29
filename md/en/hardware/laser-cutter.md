@@ -55,4 +55,4 @@ ATTENTION: You will receive TWO conformation emails after submitting the form. T
 * T.L. Chang 張祖林 n76094281 at gs.ncku.edu.tw
 * W.T. Hsiao 蕭瑋廷 n76081018 at gs.ncku.edu.tw
 * Y.C. Wu 吳怡諄 n76084155 at gs.ncku.edu.tw
-* S.Y. Wang 王順昱 e74066098 at gs.ncku.edu.tw
+* S.Y. Wang 王舜昱 e74066098 at gs.ncku.edu.tw
