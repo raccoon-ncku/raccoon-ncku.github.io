@@ -35,6 +35,14 @@
       </script>
     </div>
     <div class="container">
+      <h3>Assistants</h3>
+      <!-- Table  -->
+      <div id="assistant-placeholder">Loading from Google Sheet</div>
+      <script>
+        $.get("https://docs.google.com/spreadsheets/d/1AI3bSqMw3zWzwscZD5Cc2LLCJgbSwDLqm0HQCfQuq2c/gviz/tq?sheet=Assistants&tqx=out:html&tq&gid=0 body", function (data) {
+          $("#assistant-placeholder").replaceWith(data);
+        });
+      </script>
       <h3>Assistant Shift</h3>
       <!-- Table  -->
       <div id="table-placeholder">Loading from Google Sheet</div>

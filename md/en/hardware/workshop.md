@@ -37,9 +37,6 @@ Bits, blades, and other disposable parts are not always provided.
     * Not restoring the workplace after use.
     * The item is damaged by the paint, plaster, or other kinds of stain due to the user's ignorance
 
-### Assistants
-* 張祖林 n76094281 at gs.ncku.edu.tw
-* 蕭瑋廷 n76081018 at gs.ncku.edu.tw
-* 吳怡諄 n76084155 at gs.ncku.edu.tw
+
 
  

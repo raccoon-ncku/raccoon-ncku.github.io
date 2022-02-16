@@ -49,10 +49,3 @@ Raccoon will keep tracking the usage of the machines, and all printing will be r
 Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfb7LfBw3krto0ne0Xhq992D16tcGEgtaDMYD9pogVkKNA3yg/viewform?vc=0&c=0&w=1&flr=0) to reserve the machine.
 
 ATTENTION: You will receive TWO conformation emails after submitting the form. The first is a confirmation mail that the system has received your request and there is no reservation conflict. Once the assistant has reviewed the request, you will receive the second email. Any further notification, such as rescheduling or file problems, will be sent to you with emails.
-
-
-### Assistants
-* T.L. Chang 張祖林 n76094281 at gs.ncku.edu.tw
-* W.T. Hsiao 蕭瑋廷 n76081018 at gs.ncku.edu.tw
-* Y.C. Wu 吳怡諄 n76084155 at gs.ncku.edu.tw
-* S.Y. Wang 王舜昱 e74066098 at gs.ncku.edu.tw
