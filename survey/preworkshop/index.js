@@ -21,7 +21,7 @@ var surveyJSON = {
                     "type": "radiogroup",
                     "name": "event",
                     "title": "Which event you're attending",
-                    "defaultValue": "2021-Fall",
+                    "defaultValue": "2022-Spring",
                     "choices": [
                      {
                       "value": "2022-Spring",
