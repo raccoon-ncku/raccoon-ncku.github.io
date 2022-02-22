@@ -23,13 +23,17 @@ L250 x W210 x H410 mm
 5. Export the geometry as STL or OBJ format.
 
 ### Pricing
-NTD $2 per gram.
 If not specified otherwise, the assistant will use the latest CURA with the following settings to calculate the material usage.
 
 * layer height 0.2 mm
 * No support and raft
 * 2 walls
 * 10% infill
+
+The fee is calculated with the following rate:
+* Current students and faculty of Dept. of Arch: NTD $2 per gram.
+* Current students and faculty of NCKU, Alumni of Dept. of Arch: NTD $3 per gram.
+* Other: NTD $5 per gram.
 
 ### 
 1. If a failure-prone problem of the geometry is identified by the assistants beforehand, yet the user insists to go on printing, the material used by the failed printing will then be charged.
