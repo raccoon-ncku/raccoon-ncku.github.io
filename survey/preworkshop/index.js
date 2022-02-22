@@ -11,7 +11,7 @@ Survey
 var surveyJSON = {
     "title": "Raccoon Pre-workshop Evaluation Survey",
     "description": "Please finish this survey either in English or Chinese at your preference.",
-    "logo": "/assets/img/favicon.ico",
+    "logo": "/favicon.ico",
     "logoWidth": 60,
     "logoHeight": 60,
     "pages": [
@@ -24,8 +24,8 @@ var surveyJSON = {
                     "defaultValue": "2021-Fall",
                     "choices": [
                      {
-                      "value": "2021-Fall",
-                      "text": "Workshop 2021/Nov/27-28"
+                      "value": "2022-Spring",
+                      "text": "Architectural Design Studio, Spring 2022"
                      },
                     ]
                    },
