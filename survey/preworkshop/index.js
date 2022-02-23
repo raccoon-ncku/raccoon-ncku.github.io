@@ -43,7 +43,8 @@ var surveyJSON = {
                 {
                     "type": "text",
                     "name": "edu",
-                    "title": "Previous degrees/majors/universities"
+                    "title": "Previous degrees/majors/universities",
+                    "description": "Skip this question if you're an undergraduate."
                 }
             ]
         },
