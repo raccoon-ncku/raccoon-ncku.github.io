@@ -51,6 +51,7 @@
     "3-axis_cnc_router": {"title":"3-axis CNC Router", "description": ""},
     "3d_printer": {"title":"3D Printer", "description": ""},
     "laser_cutter": {"title":"Laser Cutter", "description": ""},
-    "workshop": {"title":"Workshop", "description": ""}
+    "workshop": {"title":"Workshop", "description": ""},
+    "spray-booth": {"title":"Spray Booth", "description": ""}
   }
 }
