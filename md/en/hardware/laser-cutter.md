@@ -23,7 +23,7 @@ Please prepare a flat material for cutting. A warped material that doesn't fit t
 Please do not the mixed acrylic with ABS, cutting such material will be charged a cleaning fee of NTD $500.
 
 ### Dimensional Limitations
-* Machine A : 812.8 x 457.2 mm
+* Machine A : 812.8 x 457.2 mm (Currently unavailable, maintenance required)
 * Machine B : 609.6 x 457.2 mm
 
 ### File Preparation
