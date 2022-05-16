@@ -1,12 +1,12 @@
 ## 國立成功大學數位智造工坊 空間管理規範
 
 數位智造工坊管理以下空間，以及放置於其中的材料和設備：
-  * Raccoon工作室
-  * 濕式工法作業室
-  * 工業機器人工作單元
+  * Raccoon Studio
+  * Casting Lab
+  * Robot Cells
   * Makerspace
-  * 雷切室
-  * CNC室
+  * Laser Cutter Room
+  * 3-axis CNC Router Room
 
 ### 共同規則
 1. 個人物品僅能存放於指定的區域或個人座位區。
@@ -24,20 +24,20 @@
 * 使用[線上申請單](https://docs.google.com/forms/d/e/1FAIpQLSd6UzA2WbX7OkTVvDmLnoguLpXOh4YjRaojqegkJvUiVWt68w/viewform)進行申請，申請獲准後會寄送確認email。
 * 使用前請向智造工坊管理員或經理索取鑰匙，於結束使用後歸還。
 
-### 雷切室
+### Laser Cutter Room
 * 僅能進行雷射切割加工。
 * 僅能存放還有再利用價值的壓克力板。
 * 廢棄壓克力及密集版需放置於指定存放區
 * 由智造工坊管理員、雷切管理員及經理保管鑰匙。
 * 其餘注意事項及使用方式，請參考雷射切割機頁面。
 
-### CNC室
+### 3-axis CNC Router Room
 * 僅能進行木材或發泡材料CNC銑削加工。
 * 僅能存放還有再利用價值的木板或鋁金屬。
 * 由智造工坊管理員及經理保管鑰匙。
 * 其餘注意事項及使用方式，請參考3軸CNC雕刻機頁面。
 
-### Raccoon工作室與工業機器人工作單元
+### Raccoon Studio and Robot Cells
 * Raccoon工作室與工業機器人工作單元，以與工業機器人相關之加工、研究、教學及會議活動使用為優先。
 * 得視情況開放建築系所及科藝所課程或活動申請借用。
 * 申請借用於建築系所及科藝所課程或活動使用時，應於兩個月內至一週前向智造工坊經理借用。
@@ -48,12 +48,12 @@
 * 使用工業機器人工作單元遵守相關規範，請參考『國立成功大學數位智造工坊 工業機器人操作安全規範』。
 * Raccoon工作室以磁卡管理進出，智造工坊管理員、登記在案的工業機器人操作者得持有磁卡。
 
-### 濕式加工室
+### Casting Lab
 * 濕式加工室以進行混凝土、石膏、Epoxy等材料灌注試驗、加工、或教學使用為優先。
 * 得視情況開放建築系所及科藝所課程或活動申請借用。
 * 申請借用於建築系所及科藝所課程或活動使用時，應於兩個月內至一週前向智造工坊經理借用。
 * 使用[線上申請單](https://docs.google.com/forms/d/e/1FAIpQLSd6UzA2WbX7OkTVvDmLnoguLpXOh4YjRaojqegkJvUiVWt68w/viewform)進行申請，申請獲准後會寄送確認email。
 * 使用前請向智造工坊管理員或經理索取鑰匙，於結束使用後歸還。
 
-### 附圖一
+### Fig 1
 ![layout](/assets/img/about/Floor_plan_Arch_Tech_Bldg_GF_Cropped.png)
