@@ -1,12 +1,12 @@
 var defaultThemeColors = Survey
     .StylesManager
-    .ThemeColors["modern"];
+    .ThemeColors["bootstrap"];
 
 defaultThemeColors["$main-color"] = "#000";
 
 Survey
     .StylesManager
-    .applyTheme("modern");
+    .applyTheme("bootstrap");
 
 var surveyJSON = {
     "title": "Raccoon Pre-workshop Evaluation Survey",
@@ -23,12 +23,12 @@ var surveyJSON = {
                     "title": "Which event you're attending",
                     "defaultValue": "2022-Spring",
                     "choices": [
-                     {
-                      "value": "2022-Spring",
-                      "text": "Architectural Design Studio, Spring 2022"
-                     },
+                        {
+                            "value": "2022-Spring",
+                            "text": "Architectural Design Studio, Spring 2022"
+                        },
                     ]
-                   },
+                },
                 {
                     "type": "text",
                     "name": "name",
@@ -59,7 +59,7 @@ var surveyJSON = {
                 },
                 {
                     "type": "comment",
-                    "name":"lv_gh",
+                    "name": "lv_gh",
                     "title": "Level of proficiency in Grasshopper",
                     "isRequired": true
                 }
@@ -123,12 +123,12 @@ var surveyJSON = {
                     "title": "Do you have a laptop",
                     "choices": [
                         {
-                         "value": true,
-                         "text": "Yes"
+                            "value": true,
+                            "text": "Yes"
                         },
                         {
-                        "value": false,
-                        "text": "No"
+                            "value": false,
+                            "text": "No"
                         }
                     ]
                 },
@@ -141,15 +141,15 @@ var surveyJSON = {
                         {
                             "value": "Debian/Ubuntu",
                             "text": "Debian/Ubuntu"
-                            },
+                        },
                         {
-                         "value": "macOS",
-                         "text": "macOS"
+                            "value": "macOS",
+                            "text": "macOS"
                         },
                         {
                             "value": "Win",
                             "text": "Windows"
-                            }
+                        }
                     ]
                 }
             ]
@@ -158,28 +158,28 @@ var surveyJSON = {
 };
 
 function sendDataToServer(survey, options) {
-	//Display information about sending data
-	options.showDataSaving();
-	$.ajax({
-		url: 'https://script.google.com/macros/s/AKfycbzvYSUNtMYD52ghcS8PvVVdd6kybcgdr8zYDcXVKXvyPqO3jTE_cB_6C8yOQs5iNcUIdQ/exec',
-		type: 'post',
-		//data: JSON.stringify(survey.data),
+    //Display information about sending data
+    options.showDataSaving();
+    $.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbzvYSUNtMYD52ghcS8PvVVdd6kybcgdr8zYDcXVKXvyPqO3jTE_cB_6C8yOQs5iNcUIdQ/exec',
+        type: 'post',
+        //data: JSON.stringify(survey.data),
         data: JSON.stringify(survey.data),
-		//We need tell web app that we use plain text.
-		headers: {
-			"Content-Type": "text/plain"
-		},
-		processData: false,
-		complete: function(res, status) {
-			if (status == 'success') {
-				//Show that data was send successfully
-				options.showDataSavingSuccess();
-			}else {
-				//Display retry button in case of error
-				options.showDataSavingError();
-			}
-		},
-	});
+        //We need tell web app that we use plain text.
+        headers: {
+            "Content-Type": "text/plain"
+        },
+        processData: false,
+        complete: function (res, status) {
+            if (status == 'success') {
+                //Show that data was send successfully
+                options.showDataSavingSuccess();
+            } else {
+                //Display retry button in case of error
+                options.showDataSavingError();
+            }
+        },
+    });
 }
 
 
@@ -212,4 +212,4 @@ survey
     });
 
 
-$("#surveyElement").Survey({ model: survey});
+$("#surveyElement").Survey({ model: survey });

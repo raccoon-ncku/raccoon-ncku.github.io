@@ -1,0 +1,70 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+.sv_qstn .sq-root {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 48px;
+}
+
+.sv_qstn .sq-root-cb {
+  margin-left: 48px;
+}
+
+.sq-title {
+  color: #313131;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.sq-description {
+  margin-left: 48px;
+}
+
+.sq-title-required {
+  color: #000000
+}
+
+.sq-label {
+  margin-left: 30px;
+}
+
+.sq-item:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+
+.sv-title {
+  font-family: 'Noto Sans TC';
+}
+
+
+.sv-root-modern .sv-btn:hover {
+  color: #000000;
+  background: #FDA33B;
+}
+
+.sv-root-modern .sv-footer__complete-btn {
+  background: #5bcbcf !important;
+}
+
+.sv-root-modern .sv-footer__complete-btn:hover {
+  background: #FDA33B !important;
+}
+
+.sv-root-modern .sv-question__erbox {
+  margin-left: 48px;
+}
+
+.sv-root-modern .sv-completedpage {
+  background-color: transparent !important;
+  font-family: 'Noto Sans TC';
+}
+
+.sv-comment {
+  background: #FFFFFF;
+}

@@ -9,9 +9,10 @@
 	<script>
 		const currentLanguage = document.documentElement.lang;
 		let pathname = "";
-		if(currentLanguage == "en"){pathname = "/";
-		}else{pathname = "/zh-Hant/";}
-		$(function(){
+		if (currentLanguage == "en") {
+			pathname = "/";
+		} else { pathname = "/zh-Hant/"; }
+		$(function () {
 			$("#header-placeholder").load(pathname + "header.html");
 			$("#nav-placeholder").load(pathname + "nav.html");
 			$("#footer-placeholder").load(pathname + "footer.html");
@@ -25,9 +26,17 @@
 	<!-- Masthead-->
 	<header class="masthead">
 		<div class="container">
-			<div class="masthead-heading">State-of-the-art <a href="#portfolio">equipment</a> and <a data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/resources/software-resources.html">algorithms</a> at the heart of your workflow.</div>
-			<div class="masthead-subheading">Raccoon is a fabrication and research group at the Dept. of Architecture NCKU working at the interface of architecture, fabrication, and computation. We focus on the synthetic integration of creative and technical goals in design and construction. We are particularly interested in how robots and computational tools can play an unexpected, collaborative role in these processes.</div>
-			<a class="btn btn-primary btn-xl text-uppercase" data-t data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/projects/portfolio.html">View Projects</a>
+			<div class="masthead-heading">State-of-the-art <a href="#portfolio">equipment</a> and <a data-attr-t
+					data-attr-t-interpolate
+					href-t="{{langPath.nav}}/pages/resources/software-resources.html">algorithms</a> at the heart of
+				your workflow.</div>
+			<div class="masthead-subheading">Raccoon is a research group at the Dept. of
+				Architecture NCKU working at the interface of architecture, fabrication, and computation. We focus on
+				the synthetic integration of creative and technical goals in design and construction. We are
+				particularly interested in how robots and computational tools can play an unexpected, collaborative role
+				in these processes.</div>
+			<a class="btn btn-primary btn-xl text-uppercase" data-t data-attr-t data-attr-t-interpolate
+				href-t="{{langPath.nav}}/pages/projects/portfolio.html">View Projects</a>
 		</div>
 	</header>
 	<!-- Services-->
@@ -76,7 +85,8 @@
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/kuka-robot-cell.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/kuka-robot-cell.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -84,13 +94,15 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.kuka_robot_cell.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.kuka_robot_cell.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>
+								hardware.kuka_robot_cell.description</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/hiwin-robot-cell.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/hiwin-robot-cell.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -98,13 +110,15 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.hiwin_robot_cell.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.hiwin_robot_cell.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>
+								hardware.hiwin_robot_cell.description</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/3-axis-cnc-router.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/3-axis-cnc-router.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -112,13 +126,15 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.3-axis_cnc_router.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.3-axis_cnc_router.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>
+								hardware.3-axis_cnc_router.description</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/3d-printer.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/3d-printer.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -126,13 +142,15 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.3d_printer.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.3d_printer.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>hardware.3d_printer.description
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/laser-cutter.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/laser-cutter.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -140,13 +158,15 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.laser_cutter.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.laser_cutter.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>
+								hardware.laser_cutter.description</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/workshop.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/workshop.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -154,13 +174,15 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.workshop.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.workshop.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>hardware.workshop.description
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<div class="portfolio-item">
-						<a class="portfolio-link" data-attr-t data-attr-t-interpolate href-t="{{langPath.nav}}/pages/hardware/spray-booth.html">
+						<a class="portfolio-link" data-attr-t data-attr-t-interpolate
+							href-t="{{langPath.nav}}/pages/hardware/spray-booth.html">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
 							</div>
@@ -168,7 +190,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading" data-t>hardware.spray-booth.title</div>
-							<div class="portfolio-caption-subheading text-muted" data-t>hardware.spray-booth.description</div>
+							<div class="portfolio-caption-subheading text-muted" data-t>hardware.spray-booth.description
+							</div>
 						</div>
 					</div>
 				</div>
@@ -177,28 +200,32 @@
 	</section>
 	<!-- Clients sponsor-->
 	<section class="page-section bg-light" id="client_and_sponsor">
-	<div class="py-5">
-		<div class="container">
+		<div class="py-5">
+			<div class="container">
 				<div class="text-center">
 					<h2 class="section-heading text-uppercase">Sponsors</h2>
 				</div>
-			<div class="row">
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="https://www.bioarch.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/bioarch.svg" alt="" /></a>
-				</div>
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="http://scfcaia.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/scfcaia.png" alt="" /></a>
-				</div>
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="http://www.taisquare.com/"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/taisquare.svg" alt="" /></a>
-				</div>
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="https://www.hiwin.tw/"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/HIWIN.png" alt="" /></a>
-				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="https://www.bioarch.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo"
+								src="/assets/img/sponsor_and_client/bioarch.svg" alt="" /></a>
+					</div>
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="http://scfcaia.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo"
+								src="/assets/img/sponsor_and_client/scfcaia.png" alt="" /></a>
+					</div>
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="http://www.taisquare.com/"><img class="img-fluid d-block mx-auto sponsor-client-logo"
+								src="/assets/img/sponsor_and_client/taisquare.svg" alt="" /></a>
+					</div>
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="https://www.hiwin.tw/"><img class="img-fluid d-block mx-auto sponsor-client-logo"
+								src="/assets/img/sponsor_and_client/HIWIN.png" alt="" /></a>
+					</div>
 
+				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 	<!-- Contact-->
 	<section class="page-section" id="contact_us">
@@ -210,7 +237,9 @@
 			<div class="row align-items-stretch mb-5">
 				<div class="col-md-6">
 					<div class="mb-md-0 form-group google-maps">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.3235042754231!2d120.21375769658039!3d23.000004399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7707d592b109%3A0x5bcb18833cd922d1!2z5ZyL56uL5oiQ5Yqf5aSn5a245bu656-J56CU56m25aSn5qiT!5e0!3m2!1sen!2stw!4v1645674923360!5m2!1sen!2stw" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.3235042754231!2d120.21375769658039!3d23.000004399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7707d592b109%3A0x5bcb18833cd922d1!2z5ZyL56uL5oiQ5Yqf5aSn5a245bu656-J56CU56m25aSn5qiT!5e0!3m2!1sen!2stw!4v1645674923360!5m2!1sen!2stw"
+							width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="col-md-6 form-group">
@@ -228,11 +257,11 @@
 					</div>
 					<div>
 						<h4 class="my-3">email</h4>
-						<p class="text-muted">e74996112 at gs.ncku.edu.tw</p>
+						<p class="text-muted"><a href="mailto:info@rccn.dev">info@rccn.dev</a></p>
 					</div>
 				</div>
 			</div>
-			</div>
+		</div>
 		</div>
 	</section>
 
