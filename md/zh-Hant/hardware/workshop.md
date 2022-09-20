@@ -1,9 +1,16 @@
 ## 工作坊
 數位智造工坊管理部分系所工具設備，目前僅限建築系所及科藝所師生借用。
 
-請本頁下方可供借用之工具清單:
-* Available for checkout: 可供外借或原地使用
-* Non-circulating: 僅限原地使用
+請參考本頁下方可供借用之工具清單:
+
+### 欄位說明：
+* Circulation:
+    * Available for checkout: 可供外借或於規定的空間使用
+    * Non-circulating: 僅限於規定的空間使用
+* Accessibility:
+    * Free to use: 無需教育訓練
+    * Free to use (SOP): 無需教育訓練，但訂有作業標準書，請依照作業標準書中方式使用
+    * Trained personnel only (SOP): 操作者需經教育訓練，並依照作業標準書方式使用
 
 
 ### 使用程序
