@@ -9,9 +9,10 @@
 	<script>
 		const currentLanguage = document.documentElement.lang;
 		let pathname = "";
-		if(currentLanguage == "en"){pathname = "/";
-		}else{pathname = "/zh-Hant/";}
-		$(function(){
+		if (currentLanguage == "en") {
+			pathname = "/";
+		} else { pathname = "/zh-Hant/"; }
+		$(function () {
 			$("#header-placeholder").load(pathname + "header.html");
 			$("#nav-placeholder").load(pathname + "nav.html");
 			$("#footer-placeholder").load(pathname + "footer.html");
@@ -25,8 +26,13 @@
 	<!-- Masthead-->
 	<header class="masthead">
 		<div class="container">
-			<div class="masthead-heading">State-of-the-art <a href="#portfolio">equipment</a> and <a href="/zh-Hant/pages/resources/software-resources.html">algorithms</a> at the heart of your workflow.</div>
-			<div class="masthead-subheading">Raccoon is a fabrication and research group at the Dept. of Architecture NCKU working at the interface of architecture, fabrication, and computation. We focus on the synthetic integration of creative and technical goals in design and construction. We are particularly interested in how robots and computational tools can play an unexpected, collaborative role in these processes.</div>
+			<div class="masthead-heading">State-of-the-art <a href="#portfolio">equipment</a> and <a href="/zh-Hant/pages/resources/software-resources.html">algorithms</a> at the heart of
+				your workflow.</div>
+			<div class="masthead-subheading">Raccoon is a research group at the Dept. of
+				Architecture NCKU working at the interface of architecture, fabrication, and computation. We focus on
+				the synthetic integration of creative and technical goals in design and construction. We are
+				particularly interested in how robots and computational tools can play an unexpected, collaborative role
+				in these processes.</div>
 			<a class="btn btn-primary btn-xl text-uppercase" href="/zh-Hant/pages/projects/portfolio.html">View Projects</a>
 		</div>
 	</header>
@@ -84,7 +90,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">KUKA機器人</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">
+								hardware.kuka_robot_cell.description</div>
 						</div>
 					</div>
 				</div>
@@ -98,7 +105,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">上銀機器人</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">
+								hardware.hiwin_robot_cell.description</div>
 						</div>
 					</div>
 				</div>
@@ -112,7 +120,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">3軸CNC雕刻機</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">
+								hardware.3-axis_cnc_router.description</div>
 						</div>
 					</div>
 				</div>
@@ -126,7 +135,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">3D印表機</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">hardware.3d_printer.description
+							</div>
 						</div>
 					</div>
 				</div>
@@ -140,7 +150,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">雷射切割機</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">
+								hardware.laser_cutter.description</div>
 						</div>
 					</div>
 				</div>
@@ -154,7 +165,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">工作站</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">hardware.workshop.description
+							</div>
 						</div>
 					</div>
 				</div>
@@ -168,7 +180,8 @@
 						</a>
 						<div class="portfolio-caption">
 							<div class="portfolio-caption-heading">噴漆棚</div>
-							<div class="portfolio-caption-subheading text-muted"></div>
+							<div class="portfolio-caption-subheading text-muted">hardware.spray-booth.description
+							</div>
 						</div>
 					</div>
 				</div>
@@ -177,28 +190,28 @@
 	</section>
 	<!-- Clients sponsor-->
 	<section class="page-section bg-light" id="client_and_sponsor">
-	<div class="py-5">
-		<div class="container">
+		<div class="py-5">
+			<div class="container">
 				<div class="text-center">
 					<h2 class="section-heading text-uppercase">Sponsors</h2>
 				</div>
-			<div class="row">
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="https://www.bioarch.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/bioarch.svg" alt></a>
-				</div>
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="http://scfcaia.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/scfcaia.png" alt></a>
-				</div>
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="http://www.taisquare.com/"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/taisquare.svg" alt></a>
-				</div>
-				<div class="col-md-3 col-sm-6 my-3">
-					<a href="https://www.hiwin.tw/"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/HIWIN.png" alt></a>
-				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="https://www.bioarch.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/bioarch.svg" alt></a>
+					</div>
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="http://scfcaia.com.tw"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/scfcaia.png" alt></a>
+					</div>
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="http://www.taisquare.com/"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/taisquare.svg" alt></a>
+					</div>
+					<div class="col-md-3 col-sm-6 my-3">
+						<a href="https://www.hiwin.tw/"><img class="img-fluid d-block mx-auto sponsor-client-logo" src="/assets/img/sponsor_and_client/HIWIN.png" alt></a>
+					</div>
 
+				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 	<!-- Contact-->
 	<section class="page-section" id="contact_us">
@@ -232,7 +245,7 @@
 					</div>
 				</div>
 			</div>
-			</div>
+		</div>
 		
 	</section>
 
