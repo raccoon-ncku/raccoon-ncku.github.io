@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="/css/styles.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    const currentLanguage = document.documentElement.lang;
+    let pathname = "";
+    if (currentLanguage == "en") {
+      pathname = "/";
+    } else { pathname = "/zh-Hant/"; }
+    $(function () {
+      $("#header-placeholder").load(pathname + "header.html");
+      $("#nav-placeholder").load(pathname + "nav.html");
+      $("#footer-placeholder").load(pathname + "footer.html");
+    });
+  </script>
+</head>
+
+<body id="page-top">
+  <div id="header-placeholder"></div>
+  <div id="nav-placeholder"></div>
+  <!-- Main-->
+  <section class="page-section" id="workshop">
+
+    
+    <div class="container">
+      <h3>Documents</h3>
+      <iframe class="nc-embed" src="https://db.rccn.dev/dashboard/#/nc/view/fbb30f2f-3bab-4676-861e-47b41bfbe854?embed" frameborder="0" width="100%" height="700" style="background: transparent; border: 1px solid #ddd"></iframe>
+    </div>
+    
+  </section>
+  <!-- Footer-->
+  <div id="footer-placeholder"></div>
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("/footer.html");
+    });
+  </script>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Contact form JS-->
+  <script src="/assets/mail/jqBootstrapValidation.js"></script>
+  <script src="/assets/mail/contact_me.js"></script>
+  <!-- Core theme JS-->
+  <script src="/js/scripts.js"></script>
+</body>
+
+</html>

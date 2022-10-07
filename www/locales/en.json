@@ -23,6 +23,7 @@
     "resources":{
       "software_resources":"Digital Asset",
       "learning_resources":"Learning Resources",
+      "documents":"Documents",
       "download": "Download"
     },
     "info":{
@@ -52,6 +53,7 @@
     "3d_printer": {"title":"3D Printer", "description": ""},
     "laser_cutter": {"title":"Laser Cutter", "description": ""},
     "workshop": {"title":"Workshop", "description": ""},
+    "woodshop_and_metal_shop": {"title":"Woodshop and Metal Shop", "description": ""},
     "spray-booth": {"title":"Spray Booth", "description": ""}
   }
 }

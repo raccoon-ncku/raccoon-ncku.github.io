@@ -23,6 +23,7 @@
     "resources":{
       "software_resources":"數位資產",
       "learning_resources":"學習資源",
+      "documents":"文件",
       "download": "下載"
     },
     "info":{
@@ -52,6 +53,7 @@
     "3d_printer": {"title":"3D印表機", "description": ""},
     "laser_cutter": {"title":"雷射切割機", "description": ""},
     "workshop": {"title":"工作站", "description": ""},
+    "woodshop_and_metal_shop": {"title":"木工坊及金屬加工區", "description": ""},
     "spray-booth": {"title":"噴漆棚", "description": ""}
   }
 }

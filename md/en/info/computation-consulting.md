@@ -11,7 +11,7 @@ Besides, questions regarding these tools are welcome as we also use them to some
 * Mastercam / NX CAM / Cura
 
 You don't need to enroll in any course or program to use this service, as long as you're a student or faculty in the Dept. of Architecture, NCKU.
-* Time: 15:00-17:00, Every Wednesday
+* Time: 15:00-17:00, Every Thursday
 * Location: Raccoon Studio (1F, Architecture Research Building)
-* Contact: e74996112 at gs.ncku.edu.tw
+* Contact: ccyen at gs.ncku.edu.tw
 * Remote consulting is also available via Cisco Webex

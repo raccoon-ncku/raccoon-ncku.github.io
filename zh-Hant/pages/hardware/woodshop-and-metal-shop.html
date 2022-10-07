@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html data-attr-t lang-t="language">
+<html lang="zh-Hant">
 
 <head>
   <meta charset="utf-8">
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="/css/styles.css" rel="stylesheet" />
+  <link href="/css/styles.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script>
     const currentLanguage = document.documentElement.lang;
@@ -29,10 +29,38 @@
     <!-- Load MD-->
     <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
     <script type="text/javascript" src="/js/loadMD.js"></script>
-    <script data-attr-t data-attr-t-interpolate href-t="/docs/zh-Hant/ARCH-0-2-Kuka_Robot_Cell_SOP.md">
+    <script href="/docs/zh-Hant/ARCH-0-1-1-Woodshop_Metal_Shop.md">
       loadRemoteMDtoHtml(document.currentScript.getAttribute('href'));
     </script>
-
+    
+  </div>
+  <div class="container">
+    <h3>工坊管理員</h3>
+    <!-- Table  -->
+    <div id="assistant-placeholder">Loading from Google Sheet</div>
+    <script>
+      $.get("https://docs.google.com/spreadsheets/d/1AI3bSqMw3zWzwscZD5Cc2LLCJgbSwDLqm0HQCfQuq2c/gviz/tq?sheet=Assistants&tqx=out:html&tq&gid=0 body", function (data) {
+        $("#assistant-placeholder").replaceWith(data);
+      });
+    </script>
+  <h3>工坊管理員排班時段</h3>
+      <!-- Table  -->
+      <div id="table-placeholder">Loading from Google Sheet</div>
+      <script>
+        $.get("https://docs.google.com/spreadsheets/d/1AI3bSqMw3zWzwscZD5Cc2LLCJgbSwDLqm0HQCfQuq2c/gviz/tq?sheet=ShiftScheduleLatest&tqx=out:html&tq&gid=0 body", function (data) {
+          $("#table-placeholder").replaceWith(data);
+        });
+      </script>
+      <!-- Table  -->
+    </div>
+  <div class="container">
+    <h3>授權管理員</h3>
+    <p>密碼: 建築系wifi密碼</p>
+    <iframe class="nc-embed" src="https://db.rccn.dev/dashboard/#/nc/view/c60170ea-4652-4372-8fb1-97bc780b000d?embed" frameborder="0" width="100%" height="700" style="background: transparent; border: 1px solid #ddd"></iframe>
+  </div>
+  <div class="container">
+    <h3>器材清單</h3>
+    <iframe class="nc-embed" src="https://db.rccn.dev/dashboard/#/nc/view/e8b86616-bb3b-4ca9-a1d4-9a6489fdd5b5?embed" frameborder="0" width="100%" height="700" style="background: transparent; border: 1px solid #ddd"></iframe>
   </div>
 </section>
 <!-- Footer-->
