@@ -5,7 +5,7 @@
 
 ### 使用程序(大學部雷切機)
 * 除作業標準書由數位智造工坊訂定全系統一之標準外，其餘使用規則由當年級學生訂定並自主管理。
-* 雷切機(大學部)作業標準書(https://rccn.dev/docs/zh-Hant/Laser_Cutter_UG1_SOP_2022-09.pdf)
+* [雷切機(大學部)作業標準書](https://rccn.dev/docs/zh-Hant/Laser_Cutter_UG1_SOP_2022-09.pdf)
 
 ### 使用程序(公用雷切機)
 * 請遵守[智造工坊使用條款](https://raccoon-ncku.github.io/zh-Hant/pages/info/internal-general-terms.html) 及此頁所記載事項
